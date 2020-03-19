@@ -1,0 +1,15 @@
+<?php 
+echo "Full Name: Emmanuel Aliyu" ;
+ 
+echo "<br>";
+echo nl2br("Email address: aliyue@ymail.com") ;
+
+echo "<br>";
+echo nl2br("Slack Name: Dejiiix") ;
+
+echo "<br>";
+echo nl2br("Track: Backend") ;
+
+echo "<br>";
+echo nl2br("Course: PHP") ; 
+?>
