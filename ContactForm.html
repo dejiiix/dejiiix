@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <h3> Contact Form For Startng By Dejiiix </h3>
+    </head>
+
+    <body>
+        <p>
+            Fill Out this Form Carefully.
+        </p>
+        <form action="processform.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Name :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="First-Name" name="firstname"required/>
+                        <input type="text" placeholder="Last-Name" name="lastname"required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type="email" placeholder="E-mail" name="email"required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password :
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Password" name="password"required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Track :
+                    </td>
+                    <td>
+                    <input type="text" placeholder="Track" name="track" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Course :
+                    </td>
+                    <td>
+                    <input type="text" placeholder="Course" name="course" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone-Number :
+                    </td>
+                    <td>
+                    <select>
+                            <option>+234</option>
+                            <option>+235</option>
+                            <option>+236</option>
+                            <option>+237</option>
+                            <option>+238</option>
+                    </select>
+                        <input type="phone-number" placeholder="8........." name="phonenumber">
+                    </td>
+                <tr>
+                    <td>
+                        Gender :
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male"/>Male
+                        <input type="radio"  name="gender" value="female"/>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                         Input Message:
+                    </td>
+                    <td>
+                        <textarea name="message" placeholder="Message"></textarea> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
